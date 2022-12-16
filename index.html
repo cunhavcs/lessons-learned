@@ -5,72 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Lessons Learned Project</title>
 </head>
 <body>
-    <header id="cabecalho">
-        <h1 id="titulo">TITULO PRINCIPAL</h1>
+    <header>
+        <h1>Lessons Learned Project</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
     </header>
     
-    <img src="./foto-perfil.jpg" alt="Foto de rosto Vinicius Cunha" id="minha_foto">
+    <main>
+        <img src="./foto-perfil.jpg" alt="Foto de rosto Vinicius Cunha" id="minha_foto">
+        <div id="linkedin"><a href="https://www.linkedin.com/in/cunhavcs/" target="_blank">Vinicius Cunha</a></div>
+        
+        <article>
+            <section id="licoes-aprendidas">
+                <h3>Lições aprendidas</h3>
+                <ol id="licoes_aprendidas">
+                    <li>Terminal Linux</li>
+                    <li>HTML e CSS</li>
+                    <li>JavaScript Vanilla</li>
+                    <li>Testes Unitários com Jest</li>
+                    <li>React</li>
+                </ol>
+            </section>
     
-    <h2>Lições aprendidas</h2>
-    <ol id="licoes_aprendidas">
-        <li>Bash</li>
-        <li>Shell</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Internet</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-        <li>Python</li>
-    </ol>
+            <section id="licoes-a-aprender">
+                <h3>Lições a aprender</h3>
+                <ul id="licoes_a_aprender">
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>SQL</li>
+                    <li>Python</li>
+                    <li>Outras</li>
+                </ul>
+            </section>
+        </article>
 
-    <h2>Lições a aprender</h2>
-    <ul id="licoes_a_aprender">
-        <li>Bash</li>
-        <li>Shell</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Internet</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-        <li>Python</li>
-    </ul>
+        <article class="lado-esquerdo">
+            <h3>Sobre Mim</h3>
+            <p>
+                Tenho experiências profissionais administrativas e estou em migração de carreira para a área de desenvolvimento de sistemas. Curto aprender coisas novas e tenho facilidade com assuntos de matemática e lógica. Vivo com minha esposa e nossas pets (gatinha Luna e cachorrinha Lisa). Gosto bastante de animais, de montar Legos, jogar online e assistir filmes/séries.
+            </p>
+        </article>
 
-    <a href="https://www.betrybe.com/" target="_blank">SITE DA TRYBE</a>
+        <aside class="lado-direito">
+            <h3>Sites interessantes</h3>
+            <ul>
+                <li><a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a></li>
+                <li><a href="https://diolinux.com.br/" target="_blank">Diolinux</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+                <li><a href="https://blog.nubank.com.br/" target="_blank">Blog do Nubank</a></li>
+            </ul>
+        </aside>
 
-    <article class="lado-esquerdo">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue erat, molestie sit amet consectetur quis, tempor eget sem. Pellentesque efficitur ex quis accumsan suscipit. Proin bibendum rutrum arcu. Donec at augue ut lacus suscipit maximus. Proin bibendum placerat turpis, in auctor elit placerat nec. Vivamus viverra, justo eget vulputate ornare, nisl quam tincidunt ex, et venenatis odio sapien ut enim. Phasellus id mi id erat mattis lectus.
-        </p>
-    </article>
+        <section id="tabela-infos">
+            <h3>Outras informações</h3>
+            <table>
+                <tr>
+                    <td><strong>Nome</strong></td>
+                    <td><em>Vinicius Cunha</em></td>
+                </tr>
+                <tr>
+                    <td><strong>Localidade</strong></td>
+                    <td><em>São Paulo, Brasil</em></td>
+                </tr>
+                <tr>
+                    <td><strong>Email</strong></td>
+                    <td><em>cunha.vcs@gmail.com</em></td>
+                </tr>
+                <tr>
+                    <td><strong>Ocupação</strong></td>
+                    <td><em>Estudante de Desenvolvimento Web</em></td>
+                </tr>
+                <tr>
+                    <td><strong>Turma</strong></td>
+                    <td><em>27 (Tribo A)</em></td>
+                </tr>
+            </table>
+        </section>
+    </main>
 
-    <aside class="lado-direito">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar tortor sed arcu efficitur scelerisque. Pellentesque vel posuere dui, ac suscipit lorem. Sed viverra odio ac tortor rhoncus, sit ex.
-        </p>
-    </aside>
-
-    <table>
-        <tr>
-            <th>Nome</th>
-            <th>Idade</th>
-        </tr>
-        <tr>
-            <td>Fulano</td>
-            <td>21 anos</td>
-        </tr>
-        <tr>
-            <td>Cicrana</td>
-            <td>22 anos</td>
-        </tr>
-    </table>
-
-    <footer id="rodape"></footer>
+    <footer>
+        <span>Todos os direitos reservados, Vinicius (2022)</span>
+    </footer>
 </body>
 </html>
